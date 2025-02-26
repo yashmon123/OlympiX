@@ -27,7 +27,7 @@ class OlympicsInsightBot:
                     "content": prompt,
                 }
             ],
-            model="llama-3.3-70b-versatile",
+            model="llama-3.3-70b-specdec",
             temperature=0.7,
             max_tokens=500
         )
@@ -52,7 +52,7 @@ class OlympicsInsightBot:
                 "role": "user",
                 "content": prompt,
             }],
-            model="llama-3.3-70b-versatile",
+            model="llama-3.3-70b-specdec",
             temperature=0.7,
             max_tokens=300
         )
